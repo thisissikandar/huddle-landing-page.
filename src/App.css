@@ -1,0 +1,24 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-size: 18px;
+    font-family: 'Open Sans', sans-serif;
+    overflow-x: hidden;
+    position: relative;
+    z-index: 1;
+    /* font-family: 'Poppins', sans-serif; */
+}
+
+header{
+    width: 100vw;
+    height: 100vh;
+    background-image: url('./assests/bg-hero-desktop.svg');
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-origin: border-box;
+}
